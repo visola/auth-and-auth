@@ -1,0 +1,8 @@
+api.base: /auth-and-auth/api/v1
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/auth_and_auth?autoReconnect=true
+    username: root
+    password: 12345678

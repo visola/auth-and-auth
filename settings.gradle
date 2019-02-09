@@ -1,0 +1,3 @@
+rootProject.name = "auth-and-auth"
+
+include 'auth-and-auth-common', 'auth-and-auth-data', 'auth-and-auth-web'

@@ -1,0 +1,8 @@
+dependencies {
+  implementation project(':auth-and-auth-common')
+
+  implementation 'mysql:mysql-connector-java:8.0.15'
+  implementation 'org.jdbi:jdbi3-core:3.6.0'
+  implementation 'org.jdbi:jdbi3-sqlobject:3.6.0'
+  implementation 'org.springframework:spring-context'
+}

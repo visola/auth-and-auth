@@ -1,0 +1,11 @@
+apply plugin: 'org.springframework.boot'
+
+dependencies {
+    implementation project(':auth-and-auth-common')
+    implementation project(':auth-and-auth-data')
+
+    implementation 'com.zaxxer:HikariCP'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+}
