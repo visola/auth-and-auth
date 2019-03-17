@@ -20,6 +20,11 @@ public class JDBIConfiguration {
   }
 
   @Bean
+  public ServiceDao serviceDAO(Jdbi jdbi) {
+    return jdbi.onDemand(ServiceDao.class);
+  }
+
+  @Bean
   public UserDao userDAO(Jdbi jdbi) {
     return jdbi.onDemand(UserDao.class);
   }
